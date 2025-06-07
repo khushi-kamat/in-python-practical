@@ -1,0 +1,23 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration Confirmation</title>
+    <link rel="stylesheet" href="{% static 'events/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'events/css/style.css' %}">
+</head>
+<body>
+    <div class="container mt-5 mx-auto" style="max-width: 800px;">
+        {% for message in messages %}
+            <div class="text-center alert alert-{{ message.tags }}">
+            {{ message }}
+            </div>
+        {% endfor %}
+        <h2 class="event-title text-center mt-5">Thank you for registering!</h2>
+        <p class="my-5">Your registration was successful. A confirmation email has
+         been sent to the registered email.</p>
+        <a href="{% url 'events:event_list' %}" class="btn btn-outline-primary">View all Events</a>
+    </div>
+</body>
+</html>

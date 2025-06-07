@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('/static/events/fonts/NeueMontreal-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('/static/events/fonts/NeueMontreal-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('/static/events/fonts/NeueMontreal-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('/static/events/fonts/NeueMontreal-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('/static/events/fonts/NeueMontreal-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('/static/events/fonts/NeueMontreal-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('/static/events/fonts/NeueMontreal-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('/static/events/fonts/NeueMontreal-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}
+body {
+	background-color: #fff;
+	font-family: 'Neue Montreal', sans-serif;
+	line-height: 21px;
+}
+.title {
+    color: #132E57;
+    font-weight: 500;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active {
+    background-color: #132E57 !important;
+    border-color: #132E57;
+}
+.btn-outline-primary, .btn-outline-primary:hover, .btn-outline-primary:active {
+    color: #132E57 !important;
+    border-color: #132E57 !important;
+    background-color: #fff !important;
+}
+.event-title{
+    color: #132E57;
+    font-weight: 400;
+}
