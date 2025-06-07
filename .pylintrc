@@ -1,0 +1,7 @@
+[MASTER]
+load-plugins=pylint_django
+ignore=migrations
+
+[MESSAGES CONTROL]
+disable=
+    logging-fstring-interpolation
