@@ -39,7 +39,7 @@ A simple Django-based platform for managing events, allowing users to view, sear
 - Run migrations for apps: ```python manage.py migrate```
 - Collect static files: ```python manage.py collectstatic```
 - Runserver: ```python manage.py runserver```
-- Configure SMTP for registration confirmation email. Create a `.env` file in the project root and add the following variables:
+- Configure SMTP for registration confirmation email. Create a `.env` file in the project root and add the following variables:<br>
   `EMAIL_HOST_USER=addhost`<br>
   `EMAIL_HOST_PASSWORD=addpassword`<br>
   `DEFAULT_FROM_EMAIL=addemail`
